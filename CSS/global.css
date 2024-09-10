@@ -1,0 +1,19 @@
+/* colors */
+
+/*
+60% of #41DF38
+30% of #D538DF
+10% of #000000
+*/
+
+:root {
+
+/* var(--dominantColor) !important; */
+--dominantColor: #41DF38; 
+
+/* var(--secondaryColor) !important; */
+--secondaryColor: #D549DF; 
+
+/* var(--accentColor) !important; */
+--accentColor: #000000; 
+}
