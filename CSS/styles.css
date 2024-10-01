@@ -1,10 +1,6 @@
 @import 'global.css';
 @import 'main.css';
 
-.test-font {
-color: var(--dominantColor) !important;
+.fa-row {
+    background-color: palegreen;
 }
-
-.test-font-2 {
-    color: #41DF38;
-    }
