@@ -4,8 +4,10 @@
 .fa-row {
     background-color: var(--dominantColor) !important;
     padding: 35px;
+    color: black;
 }
 
 .fa-row-icon {
-    font-size: 60px;
+    font-size: 70px;
+    color:black
 }
