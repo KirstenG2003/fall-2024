@@ -49,7 +49,7 @@
   .content-table thead tr {
     border-bottom: 1px solid #dddddd;
     background-color: var(--dominantColor);
-    color: #ffffff;
+    color: black;
   }
   
   .content-table tbody tr {
@@ -77,4 +77,6 @@
 
   .schedule-section {
     background-color: #f6f8fa;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
