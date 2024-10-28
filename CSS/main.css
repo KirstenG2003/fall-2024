@@ -3,7 +3,12 @@ html {
 }
 
 body {
-    background-color: white;
+    background-color: white; 
+    /*I kind of want to make it black but I don't want to restyle everything else. Professor if you're reading this let me know if this is a good idea or not*/
+}
+
+text {
+    /*In case I go through with above*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link:hover {
     text-decoration: underline;
-    text-decoration-thickness: 3px;
+    text-decoration-thickness: 1px; /*Manually edited*/
 }
 
 .footer-row {
