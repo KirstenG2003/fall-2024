@@ -7,9 +7,9 @@ body {
     /*I kind of want to make it black but I don't want to restyle everything else. Professor if you're reading this let me know if this is a good idea or not*/
 }
 
-text {
-    /*In case I go through with above*/
-}
+/*text {
+    In case I go through with above
+}*/
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--dominantColor) !important;
