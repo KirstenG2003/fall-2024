@@ -1,12 +1,12 @@
 .webform {
     position: relative;
     margin: auto;
-    background-color: var(--secondaryColor); !important
+    background-color: var(--primaryColor) !important;
     padding: 30px;
     margin-top: 25px;
     margin-bottom: 25px;
     box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.35); /* vertical, horizontal, blur, spread, rgba color and opacity*/
-    border-radius: 50px;
+    border-radius: 10px;
     width: 75%;
 }
 
@@ -20,6 +20,6 @@
 }
 
 .radio, .checkbox {
-    width: 20px; !important
-    height: 20px; !important
+    width: 20px !important;
+    height: 20px !important;
 }

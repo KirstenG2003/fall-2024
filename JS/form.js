@@ -1,3 +1,5 @@
+console.clear(); 
+
 //mask phone number
   var phoneVar = document.querySelector('#phone');
   
@@ -10,6 +12,7 @@
   
   }
 //mask phone number
+
 
 ////show/hide///////////
 var dropDownChoicesVar = document.querySelector('#dropdown-choices');
@@ -39,6 +42,8 @@ if (dropDownChoicesVar) {
   
 }
 ////show/hide///////////
+
+
 
 ///////////////checkbox///////////////
 var checkBoxVar = document.querySelector('#morning');  
@@ -80,6 +85,11 @@ if (checkBoxVar) {
   
 }
 //////////////////////checkbox//////////////////////////////
+
+
+
+
+
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
