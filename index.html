@@ -256,14 +256,21 @@
       <div class="container">
         <form data-netlify="true" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
           <div class="row">
-            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-46">
-              <label for="first-name">Full Name</label>
-              <input type="text" name="firstName" id="first-name" class="first-name form-control" required value="" placeholder="Type your name" />
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <label for="first-name">First Name</label>
+              <input type="text" name="firstName" id="first-name" class="first-name form-control" required />
             </div>
-
-            <div>
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <label for="last-name">Last Name</label>
+              <input type="text" name="lastName" id="last-name" class="last-name form-control" required />
+            </div>
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
               <label for="email">Email</label>
               <input type="email" name="email" id="email" class="email form-control" required value="" placeholder="example@website" />
+            </div>
+            <div class="col-12 col-xxs-12 col-xs-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+              <label for="tel">Phone</label>
+              <input type="tel" name="tel" id="tel" class="tel form-control" required value="" placeholder="8675-309 JENNY" />
             </div>
           </div>
         </form>
